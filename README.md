@@ -31,4 +31,14 @@ and you will find a `constanty` in the directory `bin`.
 Move it into anywhere you want. It don't depend on anything. The only external file was embed into the code and become a string constant(generate by itself)!
 ## How I embed the external file into my code
 I just made a simple version depend on the external file and then turn the external file into a long string constant(generate by the simple version of constanty), and copy-pasted the constant into my code.
+## What it CAN do and what it CANNOT do
+### What it CAN do
+[x] Generate constant variable from a file
+[x] Generate string literal from a file
+### What it CANNOT do
+[ ] Generate constant variableS from fileS in a directory
+[ ] Generate string literalS from fileS in a directory 
+[ ] Process the encoding
+### TODO
+[ ] Add Base-64 Support (May never do it)
 
