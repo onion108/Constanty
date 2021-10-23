@@ -1,0 +1,7 @@
+Usage:
+<your constanty's path> <source file name> [constant name]
+
+("<>" means requires and "[]" means optional)
+For example:
+bin/constanty help_text HELP_TEXT
+(I used this when I'm generating the constant string of this usage)
